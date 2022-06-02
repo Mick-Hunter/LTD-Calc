@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("https://azodox.github.io/uwu-calc/fonts/oswald.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Merryweather";
+    src: url("https://azodox.github.io/uwu-calc/fonts/merriweather.woff2") format("woff2");
+}
+
+::-moz-selection {
+    color: white;
+    background-color: black;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
+
+body {
+    background-image: url("https://azodox.github.io/uwu-calc/background.png");
+    background-size: cover;
+}
+
+body input[type=number]{
+    font-size: 15px;
+    color: white;
+    border: 2px solid #F3C4FB;
+}
+
+body input[type=number]:hover{
+    border: 2px solid #E5B3FE;
+    color: #E5B3FE;
+}
+
+.category-name {
+    color: #C8E7FF;
+    text-decoration: underline;
+}
+
+#drinks {
+    font-family: "Merryweather";
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.object-name {
+    color: black;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#menu-container .object-name, #pastry-container .object-name, #iced-drink .object-name, #hot-drink .object-name {
+    background-color: #F3C4FB;
+}
+
+.amount {
+    background: transparent;
+    width: 50px;
+}
+
+.option {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.option-container label {
+    color: white;
+    font-family: arial;
+}
+
+.option-container {
+    position: relative;
+    margin-top: 6%;
+    width: 200px;
+}
+
+#calculate-button {
+    font-family: "Merryweather";
+    width: 100%;
+    background-color: transparent;
+    color: #FFCBF2;
+    font-size: 200%;
+    border: none;
+    border: 4px solid #FFCBF2;
+    border-radius: 10px;
+}
+
+#calculate-button:hover {
+    color: black;
+    cursor: pointer;
+    background-color: #FFCBF2;
+}
+
+#reset-button {
+    font-family: "Merryweather";
+    width: 30%;
+    background-color: white;
+    color: black;
+    font-size: 100%;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+#reset-button:hover {
+    cursor: pointer;
+}
+
+#result-container {
+    float: right;
+    width: 400px;
+    margin: -3% 37% 0 0;  
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#sum {
+    background-color: rgba(54, 54, 54, .5);
+    border: none;
+    color: white;
+    resize: none;
+    border: 2px solid #FFCBF2;
+    border-radius: 10px;
+    font-family: "Oswald";
+    font-size: 15px;
+}
+
+#total {
+    font-size: 3rem;
+}
+
+#line {
+    margin-top: -5px;
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+#tip-container {
+    font-family: "Merryweather";
+    color: white;
+    margin: 8% 0 0 20%;
+}
+
+#tip-amount {
+    width: 100px;
+}
+
+.recipe {
+    margin-top: -3px;
+    max-width: 260px;
+    max-height: 50px;
+}
+
+.show {
+    background-color: #F3C4FB;
+}
+
+.hidden {
+    display: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
